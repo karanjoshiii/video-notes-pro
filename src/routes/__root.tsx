@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Skip" },
+      { name: "description", content: "Video Notes Pro summarizes video content into structured, easy-to-understand notes." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Skip" },
+      { property: "og:description", content: "Video Notes Pro summarizes video content into structured, easy-to-understand notes." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Skip" },
+      { name: "twitter:description", content: "Video Notes Pro summarizes video content into structured, easy-to-understand notes." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/9928e9f8-8fe1-4a96-9732-f49584f0ce4d/id-preview-f559ec95--e2b3782d-de74-44d9-bc5d-06ed72d5868b.lovable.app-1779623979806.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/9928e9f8-8fe1-4a96-9732-f49584f0ce4d/id-preview-f559ec95--e2b3782d-de74-44d9-bc5d-06ed72d5868b.lovable.app-1779623979806.png" },
     ],
     links: [
       {
